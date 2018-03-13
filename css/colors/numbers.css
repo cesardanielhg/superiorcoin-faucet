@@ -255,7 +255,7 @@ text-shadow: 1px 1px 0px #ccc;
 }
 
 .color-full {
-  background: #53bb74;
+  background:/* #53bb74 */ red;
 }
 .color-half {
   background: #ebc85d;
