@@ -228,7 +228,7 @@
                     $address = $wallet->getAddress();
                     $balance = $wallet->getBalance();
                     
-                    $balance = $balance /1000000000;
+                    $balance = $balance;
 
                     ?>
                         
