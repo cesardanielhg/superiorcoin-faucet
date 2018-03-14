@@ -229,7 +229,7 @@
                     $balance = $wallet->getBalance();
                     
                     //$balance = $balance;
-                    echo "<h1>".$balance."</h1>";
+                    echo "<h1>".$balance->balance."</h1>";
 
                     ?>
                         
