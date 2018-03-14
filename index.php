@@ -231,12 +231,17 @@
                     //$balance = $balance;
                     echo "<h1>".$balance["balance"]."</h1>";
                     print_r($balance);
+                    echo $balance->balance();
+                    rfffgfg
+                    print_r($balance->balance());
+
+
 
                     ?>
                         
                 
                     <div class="general_balance">
-                        <h1 class="letter"><?php echo $balance; ?></h1>
+                        <h1 class="letter"><?php echo $balance->balance(); ?></h1>
                     </div>
 
 
