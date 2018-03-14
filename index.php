@@ -229,10 +229,11 @@
                     $balance = $wallet->getBalance();
                     
                     //$balance = $balance;
+                    echo "<h1>".$balance."</h1>";
 
                     ?>
                         
-                    
+                
                     <div class="general_balance">
                         <h1 class="letter"><?php echo $balance; ?></h1>
                     </div>
