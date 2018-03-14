@@ -221,12 +221,13 @@
                        
                     <?php
 
-                    require "vendor/autoload.php";
+                    require "../vendor/autoload.php";
                     use Superior\Wallet;
                     $wallet = new Superior\Wallet();
 
                     $address = $wallet->getAddress();
                     $balance = $wallet->getBalance();
+                    
                     $balance = $balance /1000000000;
 
                     ?>
