@@ -228,13 +228,13 @@
                     $address = $wallet->getAddress();
                     $balance = $wallet->getBalance();
                     
-                    $balance = $balance;
+                    $balance = $balance /1000000000;
 
                     ?>
                         
                     
                     <div class="general_balance">
-                        <h1 class="letter"><?php echo $balance ?></h1>
+                        <h1 class="letter"><?php echo $balance; ?>.00</h1>
                     </div>
 
 
