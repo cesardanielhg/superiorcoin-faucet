@@ -227,14 +227,16 @@
 
                     $address = $wallet->getAddress();
                     $balance = $wallet->getBalance();
-                    
+                    /*
                     public function getRealBalance(){
-        $balance = $this->getBalance();
-        $getfaucetbal = json_decode($balance);
-        $realBalance = number_format($getfaucetbal->{'balance'}/100000000);
-        $realBalance = number_format($realBalance, 2, '.', '');
-        return $realBalance;
-    }
+                        $balance = $this->getBalance();
+                        $getfaucetbal = json_decode($balance);
+                        $realBalance = number_format($getfaucetbal->{'balance'}/100000000);
+                        $realBalance = number_format($realBalance, 2, '.', '');
+                        return $realBalance;
+                    }
+                    */
+                    print_r($balance);
 
 
 
@@ -242,7 +244,7 @@
                         
                 
                     <div class="general_balance">
-                        <h1 class="letter"><?php echo $getRealBalance; ?></h1>
+                        <h1 class="letter">20000<?php //echo $getRealBalance; ?></h1>
                     </div>
 
 
