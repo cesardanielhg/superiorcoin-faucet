@@ -3,15 +3,19 @@ $walletAddress = $_GET['walletAddress'];
 
 
 require "../vendor/autoload.php";
-use Superior\Wallet;
-$wallet = new Superior\Wallet();
+
 
 
 if(isset($_GET['walletAddress']))
 {
-    $userWallet = "Yes";
+    $userWallet = "Yes, Another IP Wallet";
+    $hostname = YOUR_WALLET_IP;
+	$port = YOUR_WALLET_PORT;
+	$wallet = new Superior\Wallet($hostname, $port);
 } else{
-	$userWallet = "No";
+	$userWallet = "No, it's this IP wallet";
+	use Superior\Wallet;
+	$wallet = new Superior\Wallet();
 }
 
 
