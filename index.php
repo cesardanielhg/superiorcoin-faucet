@@ -244,7 +244,7 @@
                         
                 
                     <div class="general_balance">
-                        <h1 class="letter"><?php echo $RealBalance; ?></h1>
+                        <h1 class="letter"><?php print $RealBalance; ?></h1>
                     </div>
 
 
